@@ -1,0 +1,16 @@
+.item {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  padding-top: 10px;
+}
+button {
+  border: 1px solid grey;
+  border-radius: 5px;
+  max-height: 25px;
+  cursor: pointer;
+}
+button:hover {
+  color: white;
+  background: blue;
+}
