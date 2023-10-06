@@ -8,7 +8,7 @@ export class ContactForm extends Component {
   };
 
   onChange = evt => {
-    console.log(evt.target.name);
+ 
     this.setState({ [evt.target.name]: evt.target.value });
   };
 
@@ -18,7 +18,7 @@ export class ContactForm extends Component {
       name: this.state.name,
       number: this.state.number,
     });
-    console.log(this.state);
+
     evt.target.reset();
   };
 
